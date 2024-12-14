@@ -8,3 +8,46 @@
 body {
   font-family: poppins;
 }
+
+.top {
+  padding-top: 20px;
+  text-align: center;
+}
+.container {
+  margin-left: 50px;
+  padding-top: 20px;
+}
+.another-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.item {
+  border: solid black 2px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.item .shift {
+  width: 120px;
+  margin-left: 275px;
+  text-align: center;
+  border: solid black 2px;
+}
+
+.item .a {
+  background-color: orange;
+}
+
+.item .b {
+  background-color: red;
+}
+.item .c {
+  background-color: yellow;
+}
+.item p {
+  text-align: center;
+}

@@ -1,7 +1,38 @@
 /* meida query for mobile devices */
 
-@media (max-width: 767px)  {
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
 
+  .top {
+    text-align: center;
+  }
+  .another-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 15px;
+  }
 
-    
+  .item {
+    position: relative;
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .item .shift {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    text-align: center;
+  }
+
+  .item p {
+    font-size: 13px;
+  }
+
+  .i3 {
+    width: 100%;
+  }
 }

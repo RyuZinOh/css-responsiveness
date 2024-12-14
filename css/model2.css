@@ -1,3 +1,37 @@
 /* media query for tablet modes  */
 @media (max-width: 991px) and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .top {
+    text-align: center;
+  }
+  .another-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+  }
+
+  .item {
+    position: relative;
+    width: auto;
+    padding-top: 60px;
+  }
+
+  .item .shift {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    text-align: center;
+  }
+
+  .item p {
+    font-size: 14px;
+  }
+
+  .i3 {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
 }
